@@ -75,3 +75,18 @@ a:hover {
 .hamburger-icon{
   
 }
+
+/* in progress */
+.progress{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(182, 35, 35);
+  margin-top: 20vh;
+}
+
+/* cursor */
+:root{
+  --ti-cursor-font-size: 3rem;
+}
