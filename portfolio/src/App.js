@@ -1,14 +1,16 @@
 import './App.css';
-import  Nav from './components/nav.js'
-import TypeIt from 'typeit-react'
+import '../src/styles/style.css';
+import  Nav from './components/nav.js';
+import Profile from './components/profile';
+import Projects from './components/Project';
+
 function App() {
   return (
     <>
-    <Nav></Nav>
-    <div class="progress">
-      <TypeIt>Welcome! This site is in progress</TypeIt>
-    </div>
     
+    <Nav></Nav>
+    <Profile></Profile>
+    <Projects></Projects>
     </>
   );
 }

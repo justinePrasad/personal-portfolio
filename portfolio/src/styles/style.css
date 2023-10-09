@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px){
+    /* whens screen size is lower, nav disappears */
+    #desktop-nav {
+        display: none !important;
+    }
+    #hamburger-nav{
+        display: flex !important; 
+    }
+    .section_pic{
+        max-width: 100%;
+
+        height: auto;
+    }
+    
+}
+
